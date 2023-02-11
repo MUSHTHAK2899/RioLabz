@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+  }
+
+  .pageniation{
+    @apply flex gap-10 p-2 bg-gray-500 max-w-[600px] justify-center rounded-lg items-center text-white
+  }
+  .pageItem{
+    @apply bg-gray-700 text-white px-3 py-2  rounded-lg hover:bg-gray-400
+  }
+
+.previous{
+  @apply bg-gray-700 p-2 rounded-lg hover:bg-gray-400 hidden md:flex
+}
