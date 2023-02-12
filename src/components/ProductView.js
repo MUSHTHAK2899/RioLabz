@@ -22,6 +22,7 @@ const ProductView = () => {
                     size={24}
                     activeColor="#ffd700"
                     isHalf={true}
+                    edit={false}
                   />,
 
                   <span className="text-gray-600 ml-3">{productItem?.rating?.count} Reviews</span>
